@@ -1,0 +1,360 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: '微软雅黑';
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing: border-box;
+
+
+}
+body{
+    background: #fffbe7;
+}
+
+.safe{
+    width: 1000px;
+    margin: 0 auto;
+}
+.safe::after{
+    content: '';
+    display: block;
+    clear: both;
+
+}
+.right{
+    float: right;
+
+}
+.left{
+    float: left;
+
+}
+/*页头开始*/
+header{
+    height: 729px;
+    width: 100%;
+    background-image: url("../img/h5/tou.png");
+    background-position: center top;
+
+
+
+
+}
+/*页头结束*/
+/*背景*/
+/*.bj{*/
+    /*height: 3093px;*/
+    /*width: 1920px;*/
+    /*background: #fffbe7;*/
+
+/*}*/
+/*背景*/
+/*第一层开始*/
+.c1bj{
+    width: 100%;
+    height: 100%;
+
+
+
+}
+.c1tb{
+    background-image: url("../img/h5/sr1.png");
+    height: 122px;
+    width: 998px;
+
+
+}
+.c1s{
+    width: 998px;
+    height: 508px;
+    background: #7a5ae3;
+    border-radius: 0 0 10px 10px;
+    font-size: 0px;
+
+
+}
+.c1n{
+    width: 950px;
+    height: 466px;
+    background: #6345cb;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 24px;
+
+
+}
+.c1wz{
+    font-size: 24px;
+    color: white;
+    padding-top: 24px;
+    padding-left: 50px;
+    width: 905px;
+
+}
+.tbc{
+    list-style: none;
+    width: 950px;
+    height: 286px;
+
+
+}
+.tbc>li{
+    height: 286px;
+    width: 33%;
+    text-align: center;
+
+}
+.t1{
+    margin-top: 95px;
+    margin-bottom: 75px;
+}
+.t2{
+    margin-top: 55px;
+    margin-bottom: 40px;
+}
+.t3{
+    margin-top: 75px;
+    margin-bottom: 55px;
+}
+
+
+.c1fc{
+    color: white;
+    height: 284px;
+    line-height: 284px;
+
+
+}
+.c1z{
+    font-size: 24px;
+    color: #ffec1a;
+
+
+}
+.yun1{position: absolute;
+    left: 0;
+    top:867px;
+    z-index: -1;
+}
+.qiqiu2{
+    position: absolute;
+    left: 0;
+    top: 1670px;
+    z-index: -1;
+
+
+
+
+}
+.qiqiu1{
+    position: absolute;
+    right: 0;
+    top: 800px;
+    z-index: -1;
+
+
+/*第一层结束*
+/*第二层开始*/
+
+
+}
+.yun2{
+   position: absolute;
+    right: 0;
+    top: 2305px;
+    z-index: -1;
+}
+.c2bj{
+    width: 100%;
+    height: 100%;
+
+}
+.c2tb{
+    background-image: url("../img/h5/sr1.png");
+    height: 122px;
+    width: 998px;
+}
+.c2s{
+    width: 998px;
+    height: 2150px;
+    background: #7a5ae3;
+    border-radius: 0 0 10px 10px;
+    font-size: 0px;
+}
+.c2n{
+    width: 950px;
+    height: 2120px;
+    background: #6345cb;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 24px;
+}
+.c2bt{
+    margin-top: 40px;
+    margin-left: 50px;
+
+}
+.c2wz{
+    font-size: 20px;
+    color: white;
+    margin-left: 50px;
+
+}
+.c2t1{
+     margin-left: 50px;
+     margin-top: 126px;
+
+
+ }
+.c2t2{
+    margin-left: 50px;
+    margin-top: 60px;
+
+
+}
+.dxx{
+    width: 950px;
+    height: 65px;
+    border-bottom:dashed 4px #826ad5;
+    display: inline-block;
+
+
+}
+.c2c{
+    list-style: none;
+    width: 950px;
+    height: 260px;
+}
+.c2c>li {
+    height: 286px;
+    width: 28%;
+    text-align: center;
+}
+.c21{
+    margin-top: 46px;
+    margin-bottom: 34px;
+}
+.c22{
+    margin-top: 68px;
+    margin-bottom: 34px;
+}
+.c23{
+    margin-top: 68px;
+    margin-bottom: 34px;
+}
+.c2c>.jt{
+    width: 66px;
+    height: 50px;
+    margin-top: 162px;
+
+}
+.c2d{
+    width: 1000px;
+    height: 444px;
+    text-align: center;
+    margin: 60px 0 0 0;
+}
+.button{
+    width: 290px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 36px;
+    background: #fef202;
+    margin-left: 352px;
+    color: #f88a1e;
+
+
+}
+.c2dz{
+    list-style: none;
+    width: 684px;
+    height: 368px;
+    margin-top: 40px;
+    margin-left: 50px;
+
+}
+.c2dz li{
+    font-size: 18px;
+    color: white;
+    margin-bottom: 16px;
+
+}
+.c2dz>.c2dzbt{
+    font-size: 24px;
+
+}
+.c2dz>.zdx{
+    color: #9276f3;
+    font-size: 14px;
+
+}
+
+
+
+
+
+
+
+/*第二层结束*/
+/*底栏开始*/
+.dlbj{
+    background: #293146;
+    width: 100%;
+    height: 100px;
+
+
+}
+.dl{
+    height: 70px;
+    width: 1100px;
+    margin-top: 30px;
+    padding-top: 30px;
+    color: white;
+    font-size: 24px;
+
+
+
+}
+.dl input{
+    width: 190px;
+    height: 40px;
+    border-radius: 10px;
+    margin-right: 40px;
+    font-size: 22px;
+
+}
+.dl button{
+    height: 40px;
+    width: 222px;
+    border-radius: 10px;
+    font-size: 24px;
+    background: #fef202;
+    margin-left: 30px;
+    color: #f65c26;
+    border-style: none;
+
+
+
+}
+.jx{
+    color: #696d78;
+    font-size: 14px;
+    padding-left: 490px;
+
+
+}
+.jx>.jxyb{
+    padding-left: 160px;
+    color: white;
+
+}
+.jxyb>.cs{
+    color: #f65c26;
+
+}
+
+
+
+
+
+
+/*底栏结束*/
